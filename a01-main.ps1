@@ -112,7 +112,7 @@ if (!(Test-Path $DriverPath$ImageFileNameDL)){Copy-Item -Path C:\OSDCloud\OS\$Im
 }
 #===================
 
-if($GroupTag -eq 'Corporate-BE'){Dism /image:C:\ /Set-InputLocale:080C:0000080C}
+if($GroupTag -eq 'Corporate-BE'){Dism /image:C:\ /Set-InputLocale:0409:00000409}
 if($GroupTag -eq 'Corporate-PT'){Dism /image:C:\ /Set-InputLocale:0816:00000816}
 if($GroupTag -eq 'Corporate-PH'){Dism /image:C:\ /Set-InputLocale:0464:00000409}
 if($GroupTag -eq 'Corporate-DK'){Dism /image:C:\ /Set-InputLocale:0406:00000406}
