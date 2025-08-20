@@ -49,6 +49,7 @@ $Global:MyOSDCloud = [ordered]@{
     ClearDiskConfirm = [bool]$False
     ShutdownSetupComplete = [bool]$true
     SyncMSUpCatDriverUSB = [bool]$true
+    DriverPackName = 'None'
    }
 
 #Used to Determine Driver Pack
